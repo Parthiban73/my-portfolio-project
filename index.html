@@ -137,19 +137,19 @@
 
             <!--===== PROJECT =====-->
             <section class="portfolio section" id="portfolio">
-                <h2 class="section-title">Project</h2>
-                <div class="w3-container bd-grid">
-                  
-                  
-                  <div class="w3-content" style="max-width:500px">
-                    <div class="portfolio__img">
-                        <div class="text"><b>SIMULATION BALL MOVEMENT </b></div>
-                        <img class="mySlides" src="./assets/img/program1.jpg" >
-                        <div class="portfolio__link">
-                            <a href="https://github.com/Parthiban73/week-1" class="portfolio__link-name ">source</a>
-                            <a href=" https://parthiban73.github.io/week-1/" class="portfolio__link-name">output</a>
-                        </div>
-                    </div>
+    <h2 class="section-title">Portfolio</h2>
+    <div class="portfolio-container">
+        <div class="portfolio-item">
+            <div class="portfolio-info">
+                <h3 class="portfolio-title">Simulation Ball Movement</h3>
+                <p class="portfolio-description">Simulate the movement of a ball.</p>
+                <div class="portfolio-links">
+                    <a href="https://github.com/Parthiban73/week-1" class="portfolio-link">Source</a>
+                    <a href="https://parthiban73.github.io/week-1/" class="portfolio-link">Output</a>
+                </div>
+            </div>
+            <img class="portfolio-image" src="./assets/img/program1.jpg" alt="Simulation Ball Movement">
+        </div>
                     <div class="portfolio__img">
                         <div class="text"><b>ANIMATION OF THE RANDOM WALK EXERCISE</b></div>
                         <img class="mySlides" src="./assets/img/program2.jpg">
@@ -218,10 +218,10 @@
                   </div>
                   
                   <div class="w3-center" >
-                    <div class="w3-section ">
-                      <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
-                      <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
-                    </div>
+                    <div class="controls">
+        <button class="control-btn prev" onclick="plusDivs(-1)">&#10094; Prev</button>
+        <button class="control-btn next" onclick="plusDivs(1)">Next &#10095;</button>
+    </div>
                   </div> 
                   
                 </div>
