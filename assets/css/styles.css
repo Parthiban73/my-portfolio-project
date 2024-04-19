@@ -321,8 +321,80 @@ img{
 }
 
 /* ===== PROJECT =====*/
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio-info {
+    padding: 20px;
+}
+
+.portfolio-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.portfolio-description {
+    margin-bottom: 15px;
+}
+
+.portfolio-links {
+    display: flex;
+    gap: 10px;
+}
+
+.portfolio-link {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.control-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.control-btn:hover {
+    background-color: #555;
+}
 .portfolio{
     background-color: var(--white-color);
+        padding: 50px 0;
 }
 .portfolio__container{
     justify-items: center;
